@@ -1,0 +1,32 @@
+# Ignore dependencies in any folder (Root, Client, or Server)
+node_modules/
+**/node_modules/
+
+# Ignore Package Manager files
+.pnp
+.pnp.js
+yarn-error.log*
+npm-debug.log*
+
+# Ignore Production/Build outputs from Client and Server
+build/
+dist/
+out/
+bin/
+obj/
+**/build/
+**/dist/
+
+# Ignore Nakama specific runtime data (if any is generated locally)
+data/
+modules/*.js
+
+# Ignore Environment/Secret files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store

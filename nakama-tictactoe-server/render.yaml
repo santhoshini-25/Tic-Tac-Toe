@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: nakama-tictactoe
+    env: docker
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        generateValue: true
+      - key: NAKAMA_SERVER_KEY
+        value: defaultkey123
+      - key: NAKAMA_CONSOLE_KEY
+        value: defaultkey123
+      - key: NAKAMA_SERVER_SECRET
+        value: mysecret123

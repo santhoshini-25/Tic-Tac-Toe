@@ -1,0 +1,8 @@
+{
+  "name": "nakama-tictactoe-server",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "nakama-runtime": "github:heroiclabs/nakama-common"
+  }
+}
